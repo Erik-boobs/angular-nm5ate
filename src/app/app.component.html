@@ -13,6 +13,37 @@
       >
         <span class="navbar-toggler-icon"></span>
       </button>
+      <a href="https://angular-nm5ate.stackblitz.io/login">Iniciar sesión</a>
+      <div class="collapse navbar-collapse" id="navbarScroll">
+        <ul
+          class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+          style="--bs-scroll-height: 100px;"
+        >
+          <li id="is" class="nav-item">
+            <a
+              class="nav-link active"
+              aria-current="page"
+              routerLink="/login"
+              style="color: white;"
+              >Iniciar Sesión</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/register" style="color: white;"
+              >Registrarse</a
+            >
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input
+            class="form-control me-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-light" type="submit">Search</button>
+        </form>
+      </div>
     </div>
   </nav>
   <router-outlet> </router-outlet>
